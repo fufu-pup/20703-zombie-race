@@ -1,3 +1,4 @@
+console.log("js is working")
 let scene, camera, renderer, car, road;
 let items = [];
 let score = 0, gameActive = true; 
