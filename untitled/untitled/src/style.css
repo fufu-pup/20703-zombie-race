@@ -1,0 +1,16 @@
+body { margin: 0; background: #000; overflow: hidden; }
+#ui { 
+    position: absolute; top: 20px; width: 100%; 
+    display: flex; justify-content: center; z-index: 10; 
+    pointer-events: none;
+}
+.stat { 
+    background: rgba(50, 0, 0, 0.8); 
+    border: 2px solid #ff0000; 
+    padding: 10px 30px; 
+    color: #fff; 
+    font-family: 'Arial Black', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 0 15px #ff0000;
+}
+#game-container { width: 100vw; height: 100vh; }
